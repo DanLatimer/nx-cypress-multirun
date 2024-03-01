@@ -1,0 +1,8 @@
+{
+  "name": "my-feature-3",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "features/my-feature-3/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}

@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@features/my-feature-1": ["features/my-feature-1/src/index.ts"],
-      "@features/my-feature-2": ["features/my-feature-2/src/index.ts"]
+      "@features/my-feature-2": ["features/my-feature-2/src/index.ts"],
+      "@features/my-feature-3": ["features/my-feature-3/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
