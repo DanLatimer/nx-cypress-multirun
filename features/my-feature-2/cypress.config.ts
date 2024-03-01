@@ -8,5 +8,6 @@ export default defineConfig({
       cypressDir: 'cypress',
       webServerCommands: { default: 'nx run nx-multi-feature:serve-static' },
     }),
+    baseUrl: 'http://localhost:3030',
   },
 });

@@ -4,5 +4,27 @@
   "sourceRoot": "features/my-feature-2/src",
   "projectType": "library",
   "tags": [],
-  "targets": {}
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "dependsOn": ["nx-multi-feature:build"],
+      "options": {
+        "cypressConfig": "features/my-feature-2/cypress.config.ts",
+        "testingType": "e2e",
+        "devServerTarget": "nx-multi-feature:serve-static",
+        "port": 3030,
+        "browser": "chrome",
+        "skipServe": true,
+        "waitUntilTargets": ["nx-multi-feature:serve-static"]
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "nx-multi-feature:serve-static"
+        },
+        "ci": {
+          "devServerTarget": "nx-multi-feature:serve-static"
+        }
+      }
+    }
+  }
 }

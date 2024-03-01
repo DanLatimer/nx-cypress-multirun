@@ -7,6 +7,8 @@ export default defineConfig({
     ...nxE2EPreset(__filename, {
       cypressDir: 'cypress',
       webServerCommands: { default: 'nx run nx-multi-feature:serve-static' },
+      // ciWebServerCommand: 'nx run nx-multi-feature:serve-static',
     }),
+    baseUrl: 'http://localhost:3030',
   },
 });
