@@ -1,0 +1,8 @@
+{
+  "name": "nx-multi-feature",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/nx-multi-feature/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}

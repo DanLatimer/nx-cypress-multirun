@@ -1,0 +1,9 @@
+{
+  "name": "nx-multi-feature-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/nx-multi-feature-e2e/src",
+  "targets": {},
+  "implicitDependencies": ["nx-multi-feature"],
+  "tags": []
+}
